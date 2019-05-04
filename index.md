@@ -1,6 +1,6 @@
 ## Welcome to my ~Great~ Website
 
-### FlightGear[[1](www.flightgear.org)]
+### FlightGear[[1](http://www.flightgear.org)]
 
   - #### Tools and files
 

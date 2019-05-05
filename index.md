@@ -13,6 +13,9 @@
     - #### [Git2FGPlane](https://github.com/RenanMsV/Git2FGPlane)
       An easy way to keep your GitHub aircraft always updated.
 
+    - #### [FlightGearSimpleGPSMap](https://github.com/RenanMsV/FlightGearSimpleGPSMap)
+      A simple 3D GPS instrument (aka tablet) for FlightGear Flight Simulator
+
   - #### Addons
 
     - #### [landing_rate](https://github.com/RenanMsV/landing_rate)
@@ -90,6 +93,16 @@
 
     - #### [convertffs](https://github.com/RenanMsV/convertffs)
       An object converter for SAMP/Open.MP/MTA.
+
+### Minecraft[[1](http://minecraft.net)]
+
+  - ### Plugins
+    - #### [EpicBossGoldEdition](https://github.com/RenanMsV/EpicBossGoldEdition)
+      EpicBoss Gold Edition is a plugin that allowes you as server admin to create your own mobs. This includes custom drops, health, damage, speed, equipment, skills and much more.
+
+  - ### Tools and files
+    - #### [Minecraft_PyModManager](https://github.com/RenanMsV/Minecraft_PyModManager)
+      A simple mod manager in python for Minecraft
 
 ### General Programming
 

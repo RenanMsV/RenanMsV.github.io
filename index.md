@@ -96,13 +96,13 @@
 
 ### Minecraft[[1](http://minecraft.net)]
 
-  - ### Plugins
-    - #### [EpicBossGoldEdition](https://github.com/RenanMsV/EpicBossGoldEdition)
-      EpicBoss Gold Edition is a plugin that allowes you as server admin to create your own mobs. This includes custom drops, health, damage, speed, equipment, skills and much more.
-
   - ### Tools and files
     - #### [Minecraft_PyModManager](https://github.com/RenanMsV/Minecraft_PyModManager)
       A simple mod manager in python for Minecraft
+
+  - ### Plugins
+    - #### [EpicBossGoldEdition](https://github.com/RenanMsV/EpicBossGoldEdition)
+      EpicBoss Gold Edition is a plugin that allowes you as server admin to create your own mobs. This includes custom drops, health, damage, speed, equipment, skills and much more.
 
 ### General Programming
 

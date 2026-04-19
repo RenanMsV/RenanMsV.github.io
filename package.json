@@ -1,0 +1,18 @@
+{
+  "name": "renanmsv.github.io",
+  "version": "1.0.0",
+  "description": "RenanMsV's github page. Simply built with Eleventy.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "debug-11ty": "set DEBUG=Eleventy* & eleventy --serve"
+  },
+  "keywords": [],
+  "author": "RenanMsV",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Python": "bg-yellow-200 dark:bg-yellow-800",
+  "FlightGear": "bg-lime-200 dark:bg-lime-900",
+  "VSCode": "bg-teal-200 dark:bg-teal-900",
+  "Lua": "bg-blue-200 dark:bg-blue-900",
+  "Nasal": "bg-sky-200 dark:bg-sky-900",
+  "Fork": "bg-pink-200 dark:bg-pink-900",
+  "C-Sharp": "bg-purple-200 dark:bg-purple-900"
+}

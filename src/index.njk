@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renan | RenanMSV</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: 'class' }</script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+  <link rel="icon" type="image/png" href="https://github.githubassets.com/favicons/favicon-light.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" href="https://github.githubassets.com/favicons/favicon-dark.png" media="(prefers-color-scheme: dark)">
+
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300">
+
+  <!-- TOGGLE -->
+  <div class="fixed top-4 right-4 z-50">
+    <button onclick="toggleTheme()" class="px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700">
+      ☀️🌙
+    </button>
+  </div>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-4xl md:text-6xl font-semibold mb-4">Renan / RenanMSV</h1>
+    <p class="text-lg text-gray-600 dark:text-gray-400 max-w-xl mb-6">
+      Backend enthusiast building systems, APIs, and game mechanics. Constantly learning, always solving.
+    </p>
+    <div class="flex gap-4">
+      <a href="https://github.com/RenanMsV" target="_blank"
+         class="px-6 py-3 bg-black text-white dark:bg-white dark:text-black rounded-xl hover:opacity-80 transition">
+        GitHub
+      </a>
+      <a href="#featured"
+         class="px-6 py-3 border border-gray-300 dark:border-gray-700 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+        Projects
+      </a>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section id="featured" class="py-20 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-10 text-center">Featured</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      {% for project in projects.featured %}
+        {% include "project-card.njk" %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-20 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-10 text-center">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      {% for project in projects.projects %}
+        {% include "project-card.njk" %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="py-20 px-6 bg-white dark:bg-gray-900 transition-colors">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-6">About</h2>
+      <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+        Developer and hobbyist with 10+ years in backend and game development.
+        Enjoys building aircraft and sceneries for FlightGear.
+        Experienced with Unity and Roblox.
+      </p>
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section class="py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-10">Tech Stack</h2>
+      <div class="flex flex-wrap justify-center gap-3">
+        {% for item in tech %}
+          <span class="px-4 py-2 bg-white dark:bg-gray-900 rounded-full shadow-sm">{{ item }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 text-center text-sm text-gray-500">
+    © 2026 Renan / RenanMSV
+  </footer>
+
+  <!-- LIGHTBOX IMAGE PREVIEW OVERLAY -->
+  <div id="lightbox" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50 cursor-pointer"
+      onclick="this.classList.add('hidden'); this.classList.remove('flex')">
+    <img id="lightbox-img" src="" class="max-w-[90vw] max-h-[90vh] rounded-xl shadow-2xl">
+  </div>
+
+  <script src="/js/index.js"></script>
+
+</body>
+</html>

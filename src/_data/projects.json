@@ -120,6 +120,18 @@
       "status": "active"
     },
     {
+      "name": "Magic 8-Ball",
+      "desc": "Slimefun4 addon that brings the classic fortune-telling toy into Minecraft!",
+      "repo": "https://github.com/xMoonGames/Magic-8-Ball",
+      "link": "https://blob.build/project/Magic8Ball",
+      "image": "https://github.com/xMoonGames/Magic-8-Ball/blob/master/images/magic-8-ball.png?raw=true",
+      "tags": ["Minecraft", "Slimefun4", "Addon", "Plugin"],
+      "year": 2024,
+      "stars": 1,
+      "forks": 2,
+      "status": "archived"
+    },
+    {
       "name": "FlightGear Brazil",
       "desc": "A website for the Brazilian community of FlightGear. Free aircrafts, sceneries and liveries.",
       "repo": "https://github.com/flightgearbrasil/flightgearbrasil.github.io",

@@ -30,6 +30,7 @@
           <span title="{{ project.status }}">
             {% if project.status == 'active' %}🟢
             {% elif project.status == 'archived' %}🟡
+            {% elif project.status == 'private' %}🔴
             {% endif %}
           </span>
         {% endif %}

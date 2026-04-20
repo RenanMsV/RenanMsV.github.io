@@ -120,6 +120,17 @@
       "status": "active"
     },
     {
+      "name": "Minecraft Query API",
+      "desc": "A simple Flask RESTful API for getting information about Minecraft servers.",
+      "repo": "https://github.com/RenanMsV/minecraft-query-api",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Minecraft_2024_cover_art.png",
+      "tags": ["Python", "Flask", "Minecraft", "RESTful"],
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "status": "active"
+    },
+    {
       "name": "Magic 8-Ball",
       "desc": "Slimefun4 addon that brings the classic fortune-telling toy into Minecraft!",
       "repo": "https://github.com/xMoonGames/Magic-8-Ball",
